@@ -1,0 +1,78 @@
+1. Website Topic & Purpose
+Topic: The History and Evolution of Television
+
+Purpose:
+This website aims to educate users about the development of television from its early experimental stages to its current digital form. It will explore key milestones, influential inventors, major technological advancements, and the cultural impact of TV over the decades. With streaming and smart TVs being central to modern life, understanding television’s origins offers valuable historical and technological insight.
+
+2. Intended Audience
+Primary Audience:
+
+High school and college students researching media history or technology evolution.
+
+Media enthusiasts and general audiences interested in the cultural significance of TV.
+
+User Interaction:
+
+Users will navigate through a clean, intuitive layout.
+
+They will explore timelines, read bios of television pioneers, and use interactive features to deepen engagement.
+
+3. Planned Pages & Navigation Structure
+Navigation Menu (available on every page):
+
+Home (index.html)
+
+History (history.html)
+
+Originators (originators.html)
+
+Current Trends (current.html)
+
+Contact (contact.html)
+
+Page Descriptions:
+
+index.html: Welcomes users with an overview, visual timeline, and call-to-action links to other pages.
+
+history.html: Details the timeline from mechanical TV to digital broadcasting.
+
+originators.html: Profiles key figures like Philo Farnsworth and John Logie Baird.
+
+current.html: Discusses smart TVs, streaming, and future trends .
+
+contact.html: Features a feedback form, social media links, and reference sources.
+
+4. Wireframe Mockups
+Homepage wireframe: Includes a banner, intro paragraph, and navigation bar.
+
+Subpage wireframe: Sidebar or top navigation bar, image sections with captions, scrolling content.
+
+5. Color Scheme & Typography Choices
+Color Scheme:
+
+Black, white, and grayscale: Represents vintage television.
+
+Accent colors (e.g., red or blue) for interactive buttons and highlights.
+
+Typography:
+
+Header font: "Orbitron" or "Oswald" – clean and futuristic.
+
+Body font: "Open Sans" or "Roboto" – readable and modern.
+
+Justification:
+These choices blend modern readability with a hint to the retro feel of early television, reflecting both history and innovation.
+
+6. Features & Technologies
+Planned Features:
+
+JavaScript-based interactive timeline.
+
+Embedded historical footage from platforms like YouTube.
+
+CSS animations for smooth transitions.
+
+Contact form using basic HTML/CSS/JavaScript validation.
+
+7. Roles & Responsibilities
+I will be doing everything in this project myself, as it's individual.
