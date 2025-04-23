@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The History of Television</title>
+  <title>Contact Us</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>History of Television</h1>
+    <h1>Contact & Resources</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -21,3 +21,60 @@
     </nav>
   </header>
 
+  <main>
+    <section>
+      <h2>We’d Love to Hear From You</h2>
+      <p>Have questions, suggestions, or feedback about our site or content? Get in touch with us using the form below, or check out our reference sources to explore more.</p>
+      
+      <form id="contactForm" onsubmit="return validateForm()">
+        <label for="name">Your Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Your Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Your Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section>
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+        <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
+        <li><a href="https://youtube.com/" target="_blank">YouTube</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>References & Resources</h3>
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/History_of_television" target="_blank">Wikipedia: History of Television</a></li>
+        <li><a href="https://www.britannica.com/technology/television-technology" target="_blank">Encyclopædia Britannica</a></li>
+        <li><a href="https://www.history.com/topics/inventions/television" target="_blank">History.com: The Invention of Television</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 TV History Project. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function validateForm() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      if (!name || !email || !message) {
+        alert('Please fill in all fields before submitting.');
+        return false;
+      }
+      alert('Thank you for your message!');
+      return false; // Prevents actual submission for demo purposes
+    }
+  </script>
+</body>
+</html>
